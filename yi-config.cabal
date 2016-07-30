@@ -1,4 +1,10 @@
-name:           yi-config
-version:        0.0.0
---cabal-version:  >= 1.8
-build-type:     Simple
+name:             yi-config
+version:          0.0.0
+cabal-version:    >= 1.8
+build-type:       Simple
+
+executable        yi
+  main-is:        yi.hs
+  hs-source-dirs: src
+  build-depends:  base
+                , yi
