@@ -2,7 +2,10 @@ import Yi
 import Yi.Config.Misc
 
 myConfig :: Config
-myConfig = defaultEmacsConfig
+myConfig =
+  defaultEmacsConfig
+    { configCheckExternalChangesObsessively = False
+    }
 
 myUIConfig :: UIConfig
 myUIConfig =
