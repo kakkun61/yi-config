@@ -8,3 +8,7 @@ executable        yi
   hs-source-dirs: src
   build-depends:  base
                 , yi
+                , lens
+                , mtl
+                , oo-prototypes
+                , text
